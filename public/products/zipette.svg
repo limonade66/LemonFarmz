@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradientDiamond" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0FFFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4169E1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="500" fill="#1A1A2E"/>
+  
+  <!-- Glow effect -->
+  <circle cx="200" cy="250" r="180" fill="none" stroke="#00FFFF" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Main diamond bottle shape -->
+  <polygon points="200,80 280,180 300,350 280,420 120,420 100,350 120,180" fill="url(#gradientDiamond)" stroke="#00FFFF" stroke-width="2"/>
+  
+  <!-- Inner shine -->
+  <polygon points="210,100 250,170 260,350 240,410 160,410 140,350 150,170" fill="#FFFFFF" opacity="0.2" stroke="none"/>
+  
+  <!-- Diamond facets -->
+  <line x1="200" y1="80" x2="150" y2="180" stroke="#00FFFF" stroke-width="1" opacity="0.5"/>
+  <line x1="200" y1="80" x2="250" y2="180" stroke="#00FFFF" stroke-width="1" opacity="0.5"/>
+  <line x1="120" y1="180" x2="280" y2="180" stroke="#00FFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="100" y1="350" x2="300" y2="350" stroke="#00FFFF" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Cap -->
+  <rect x="175" y="50" width="50" height="35" rx="2" fill="#FF1493" stroke="#C71585" stroke-width="2"/>
+  <circle cx="200" cy="50" r="8" fill="#FFB6C1" stroke="#C71585" stroke-width="1"/>
+  
+  <!-- Liquid inside (icy blue) -->
+  <polygon points="125,300 275,300 280,420 120,420" fill="#87CEEB" opacity="0.6" stroke="none"/>
+  
+  <!-- Sparkles/crystals -->
+  <g fill="#00FFFF" opacity="0.8">
+    <polygon points="150,200 155,210 145,210"/>
+    <polygon points="250,220 260,230 245,235"/>
+    <polygon points="180,320 190,335 170,330"/>
+    <polygon points="220,280 235,290 220,305"/>
+  </g>
+  
+  <!-- Label area -->
+  <rect x="140" y="280" width="120" height="80" fill="#000000" opacity="0.6" stroke="#00FFFF" stroke-width="1" rx="3"/>
+  
+  <!-- Text -->
+  <text x="200" y="310" font-size="20" font-weight="bold" fill="#FF1493" text-anchor="middle">ZIPETTE</text>
+  <text x="200" y="335" font-size="11" fill="#00FFFF" text-anchor="middle">💎 Premium</text>
+  <text x="200" y="352" font-size="11" fill="#00FFFF" text-anchor="middle">❄️ Exclusive</text>
+  
+  <!-- Bottom shine -->
+  <ellipse cx="200" cy="410" rx="60" ry="15" fill="#FFFFFF" opacity="0.1"/>
+</svg>
